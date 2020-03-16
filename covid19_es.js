@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     document.querySelector('body').innerHTML += codvid;
     insertCss(
     "#covid19 {position:fixed;bottom:10px;left:10px;width: 15%;background-color: #f5f5f5;z-index: 999;border: 1px solid #ccc;}" +
-    "#covid19 img {max-width: 100%;max-height: 50px;margin: 10px;}" +
+    "#covid19 img {max-width: 100%;max-height: 50px;margin: 10px;}" + '#covid19{text-decoration: none;}' +
     ".covid19__hashtag {color: #555;font-size: 19px;font-weight: 800;text-align: center;}" +
     "@media (max-width: 767px) { #covid19 {width: 100%;bottom:0;left:0;} #covid19 img, .covid19__hashtag {width: 45%; float:left;} .covid19__hashtag {margin-top: 25px;}  }"
     );
